@@ -1,0 +1,68 @@
+.component-cadastro {
+    margin: 30px auto;
+    max-width: 700px;
+    min-height: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(47, 247, 230, 0.712);;
+}
+.component-cadastro form {
+    margin: 0 auto;
+}
+.component-cadastro input {
+    font-size: 14pt;
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    display: block;
+    margin:15px auto;
+
+}
+.component-cadastro button {
+    border:unset;
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    background: linear-gradient(rgba(57, 131, 201, 0.747), rgb(16, 105, 238));
+    color: white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.753);
+    border-radius: 8px;
+}
+.component-cadastro-img {
+    font-style: italic;
+} 
+input[type="file"] {
+    display: none;
+}
+
+.component-cadastro-foto {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background: white;
+    text-align: center;
+    display: block;
+    border:1px black solid;
+}
+.component-cadastro-foto:hover {
+    background: rgba(196, 189, 189, 0.5);
+}
+
+.div-navigation {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-style: oblique;
+}
+.div-navigation a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: blue;
+    
+}

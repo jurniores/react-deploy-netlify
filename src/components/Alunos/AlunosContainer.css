@@ -1,0 +1,50 @@
+
+.ContainerAlunos {
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.479);
+    min-height: 200px;
+    margin-bottom: 25px;
+    background-color:rgba(47, 247, 230, 0.712);
+}
+.ContainerAlunos h4{
+    margin: 0 0 0 20px;
+    padding-top: 10px;
+}
+.ContainerAlunos li {
+    margin-left: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-size: 12pt;
+    font-family: 'Segoe UI';
+    
+}
+.ContainerAlunos li button {
+    padding: 10px;
+    border:unset;
+    background: rgba(70, 125, 228, 0.637);
+    border-radius: 4px;
+}
+
+.ContainerAlunos-botoes{
+    display: flex;
+    margin-left: auto;
+    width: 200px;
+    
+}
+.ContainerAlunos-botoes button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 13pt;
+    width: 80px;
+    height: 30px;
+    border: unset;
+    border-radius: 4px;
+    font-style: italic;
+    background-color:rgb(247, 247, 247) ;
+    
+}
+.ContainerAlunos-botoes button:hover{
+    background-color:black;
+    color: white;
+}
+

@@ -1,0 +1,26 @@
+
+.component-login div {
+    margin:100px auto 0 auto;
+    width: 150px;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.component-login form input {
+    margin: 20px auto;
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    border:none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.61);
+    font-size: 14pt;
+    display: block;
+}
+.component-login a {
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: black;
+    font-size: 25pt;
+}

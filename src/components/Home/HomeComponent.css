@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/03/21/11/art-2578353_960_720.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.headerHome {
+    display: flex;
+    
+}
+
+.headerHome-div {
+    width: 300px;
+    height: 100px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.356);
+    border-radius: 3px;
+    padding-left: 10px;
+
+}
+.headerHome-ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 0;
+    
+}
+.headerHome-ul li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-left: 30px;
+    cursor: pointer;
+    
+    
+    
+
+}
+
+.headerHome-ul li a{
+    text-decoration: none;
+    color: white;
+    
+}

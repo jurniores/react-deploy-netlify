@@ -1,0 +1,46 @@
+
+.ContainerFotos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.containerFotos__img{
+    padding: 20px;
+    margin: 50px auto ;
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 200px;
+    max-width: 600px;
+    min-height: 400px;
+    background-color: white;
+    display:block;
+    align-items: center;
+    overflow: scroll;
+
+}
+.containerFotos__img ul{
+    display: inline-block;
+    margin-top: 60px;
+    list-style: none;
+} 
+
+.ContainerFotos span{
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+   
+}
+.containerFotos__img img{
+    width: 140px;
+    height: 100px;
+    
+}
+.containerFotos__img img:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
+   
+}
+
